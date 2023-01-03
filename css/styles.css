@@ -1,0 +1,204 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+.container-fluid{
+  padding: 7% 12%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+.lineHeight{
+  line-height: 1.5;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.section-heading{
+  font-size: 3rem;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.row{
+  padding-top: 50px;
+}
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+
+.navbar{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 3.5% 3% 3.5% 0%;
+}
+
+/* Title Image */
+
+.title-section{
+  text-align: left;
+}
+
+.title-img{
+  padding-top: 2rem;
+  width: 47.5%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+/* Features */
+
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.icon{
+  font-size: 3.5rem;
+  padding-bottom: 1.5rem;
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #FA2A55;
+}
+
+p{
+  color: #8f8f8f;
+  padding: 0 10%;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+}
+
+.pebbles-dog-img{
+  width: 13%;
+  border-radius: 100%;
+  padding: 1.5rem 1.25rem 0;
+}
+
+.testimonial-image{
+  width:13%;
+  border-radius: 100%;
+}
+
+.shibaInu-dog-img{
+  width: 13%;
+  border-radius: 100%;
+  padding: 1.5rem 1.25rem 0;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press */
+
+#press{
+  background-color: #ef8172;
+}
+
+.press-logo{
+  width: 13%;
+  margin: 20px 30px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 7% 10%;
+}
+
+.price-text{
+  font-size: 3rem;
+}
+
+.CARD{
+  margin: 3% 2%;
+}
+
+/* call to action */
+
+#cta-h3{
+  line-height: 1.5;
+  font-size: 4.5rem;
+  font-weight: 900;
+  padding: 5%;
+}
+
+.cta-button{
+  margin: 0rem 1rem 5rem;
+}
+
+.footer-icon{
+  margin: 7rem 1rem 1.5rem;
+}
+
+/* Media Query */
+
+@media (max-width: 1000px){
+  .title-img{
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  .title-section{
+    text-align: center;
+  }
+}
